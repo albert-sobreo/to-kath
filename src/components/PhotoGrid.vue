@@ -33,8 +33,6 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps } from 'vue'
-
 type photo = {
   image: string
   span: string
