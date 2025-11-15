@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Indie+Flower&family=Mansalva&family=Nanum+Pen+Script&family=Outfit:wght@100..900&family=Permanent+Marker&family=Waiting+for+the+Sunrise&display=swap');
+@import "tailwindcss";
+
+
+.hanken-grotesk {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.mansalva {
+  font-family: "Mansalva", sans-serif;
+  font-style: normal;
+}
+
+.sunrise {
+  font-family: "Waiting for the Sunrise", cursive;
+  font-style: normal;
+}
+
+.permanent-marker {
+  font-family: "Permanent Marker", cursive;
+  font-style: normal;
+}
+
+.indie-flower {
+  font-family: "Indie Flower", cursive;
+  font-style: normal;
+}
+
+.pen {
+  font-family: "Nanum Pen Script", cursive;
+}
+
+body {
+  font-family: "Waiting for the Sunrise", cursive;
+  font-style: normal;
+
+}
