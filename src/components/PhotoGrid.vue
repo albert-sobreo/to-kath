@@ -38,7 +38,7 @@ import { defineProps } from 'vue'
 type photo = {
   image: string
   span: string
-  description: string | null
+  description?: string | null | undefined
 }
 
 type photoGrid = {
