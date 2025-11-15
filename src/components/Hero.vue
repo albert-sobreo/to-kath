@@ -40,11 +40,11 @@ onMounted(() => {
       </div>
 
       <!-- My name is / Typing -->
-      <div class="flex flex-col items-center mb-6" ref="container">
-        <div class="outfit flex gap-0 text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tighter">
-          <span class="text-zinc-900 text-6xl">{{ output }}</span>
+      <div class="flex flex-col items-center mb-6" ref="container" v-motion-roll-visible-bottom>
+        <div class="flex gap-0 pen font-semibold tracking-tighter">
+          <span class="text-zinc-900 text-6xl md:text-8xl" >{{ output }}</span>
           <span
-            class="text-pink-300  text-6xl"
+            class="text-pink-300  text-6xl md:text-8xl"
             :class="{ 'text-white/0': !underscoreVisible }"
           >
             _
@@ -54,9 +54,13 @@ onMounted(() => {
 
       <!-- Subtitle text -->
       <p
-        class="indie-flower text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto"
+        class="text-2xl md:text-4xl indie-flower text-gray-600 max-w-2xl text-start mx-auto"
+        v-motion-roll-visible-bottom
+        :delay="200"
       >
-        Happy Birthday to you !!!
+        Happy Birthday to you !!! <br><br>
+        You are already 25. I can't believe twice na natin na-celebrate birthday mo :) <br><br>
+        I prepared this site just for you <3
       </p>
 
 
