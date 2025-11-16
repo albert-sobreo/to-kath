@@ -40,7 +40,7 @@ onMounted(() => {
       </div>
 
       <!-- My name is / Typing -->
-      <div class="flex flex-col items-center mb-6" ref="container" v-motion-roll-visible-bottom-once>
+      <div class="flex flex-col items-center mb-6" ref="container" v-motion-roll-visible-once-bottom>
         <div class="flex gap-0 pen font-semibold tracking-tighter">
           <span class="text-zinc-900 text-6xl md:text-8xl" >{{ output }}</span>
           <span
@@ -55,7 +55,7 @@ onMounted(() => {
       <!-- Subtitle text -->
       <p
         class="text-2xl md:text-4xl indie-flower text-gray-600 max-w-2xl text-start mx-auto"
-        v-motion-roll-visible-bottom-once
+        v-motion-roll-visible-once-bottom
         :delay="200"
       >
         Happy Birthday to you !!! <br><br>
