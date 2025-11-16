@@ -7,7 +7,7 @@
       class="text-center mb-16"
     >
 
-      <h2 class="text-6xl mb-4 text-gray-800 pen">The song I sang for you</h2>
+      <h2 class="text-6xl mb-4 text-gray-800 pen">The song I chose for you</h2>
       <p class="text-xl text-gray-600">A melody that reminds me of you.</p>
     </div>
 
